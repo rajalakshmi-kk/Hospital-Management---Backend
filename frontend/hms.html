@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hospital Management System</title>
+
+  <!------google fonts-------->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  
+  <!-- favicon -->
+  <link rel="icon"  href="hmsfavicon.ico">
+  <!----------css stylesheet------->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!------------font awesome------------>
+  <script src="https://kit.fontawesome.com/f3ad8090d6.js" crossorigin="anonymous"></script>
+
+  <!--------------bootstrap scripts-------------->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="">
+</head>
+
+<body>
+
+  <section id="title" class="container-fluid">
+   
+    <!-- Nav Bar -->
+    <nav class="navbar  navbar-expand-lg">
+      <a class="navbar-brand" href="">Mehta Hospital</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#login">Login/Create account</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#cta">About us</a>
+          </li>
+      </ul>
+   
+  </nav>
+
+    <!-- Title -->
+
+     <div class="row">
+        <div class="col-lg-6">
+            <h1 class="big-heading">Let food be thy medicine and medicine be thy food</h1>
+        </div>
+    
+         <div class="col-lg-6">
+             <img class="image-title" src="hms.jpg" alt="hms">
+         </div>
+     </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+   <div class="row">
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-check-circle fa-4x"></i>
+      <h3 class="feature-title">Medicine availability.</h3>
+      <p style="color: Tomato"><i>Our Pharmachy medicines are available from outside pharmachy vendors also.</i></p>
+    </div>
+ 
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-bullseye fa-4x"></i>
+      <h3 class="feature-title">Services</h3>
+      <p style="color: Tomato"><i>We have enough doctors and nurses for 24 hours services.</i></p>
+    </div>
+
+    <div class="feature-box col-lg-4">
+      <i class="icon fas fa-heart fa-4x"></i>
+      <h3 class="feature-title">Our Healing Touch</h3>
+      <p style="color: Tomato"><i>Get well soon. Lead a happy healthy life</i></p>
+    </div>
+   </div>  
+    
+    
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+           <h2 class="testimonial-text">Our Special diagnosis is for</h2>
+           <img class="testimonial-image" src="kidney.jpg" alt="stone">
+           <em>Kidney stone</em>
+         </div>
+         <div class="carousel-item">
+           <h2 class="testimonial-text">Heart surgery</h2>
+           <img class="testimonial-image" src="heart.jpg" alt="heart-attack">
+           <em>heart problems</em>
+         </div> 
+      </div>
+       <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+
+       </a>
+       <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+
+       </a>
+   </div>
+  </section>
+
+  <!-- Login / Create account -->
+
+  <section id="login">
+
+    <h5 class="heading">can login/create account with respect to your need</h5>
+    <p style="color: gray;" class="new">An easy way to heal.</p>
+    
+    <div class="row">
+      <div class="log col-lg-3">
+      <div class="card">
+        <div class="card-header">
+          <h3>Admin</h3>
+        </div>
+        <div class="card-body">
+          <img src="admin.jpg" alt="ad" class="img-thumbnail">
+          <h5 style="color : black; font-family: monospace; font-size: small;"> <!-- already have account?  --><button type="button" class="btn btn-outline-primary"><a href="admin-login.html" target="_blank">Login</a></button></h5>
+        <!-- <h5 style="color : black; font-family: monospace; font-size: small;"> New User <button type="button" class="btn btn-dark"><a href="admin-reg.html" target="_blank">Create account</a></button></h5> -->
+         
+        </div> 
+      </div>
+      </div>
+  
+      <div class="log col-lg-3">  
+    <div class="card">
+      <div class="card-header">
+        <h3>Doctor</h3>
+      </div>
+      <div class="card-body">
+        <img src="doctor.jpg" alt="..." class="img-thumbnail">
+        <h5 style="color : black; font-family: monospace; font-size: small;"> already have account? <button type="button" class="btn btn-outline-primary"><a href="doctor-login.html" target="_blank">Login</a></button></h5>
+        
+        <h5 style="color : black; font-family: monospace; font-size: small;"> New User <button type="button" class="btn btn-dark"><a href="doctor-reg.html" target="_blank">Create account</a></button></h5>
+        
+      </div> 
+    </div>
+     </div>
+
+    <div class="log col-lg-3">
+    <div class="card">
+        <div class="card-header">
+          <h3>Patient</h3>
+        </div>
+      <div class="card-body">
+        <img src="patient.jpg" alt="..." class="img-thumbnail">
+        <h5 style="color : black; font-family: monospace; font-size: small;"> already have account? <button type="button" class="btn btn-outline-primary"><a href="patient-login.html" target="_blank">Login</a></button></h5>
+        <h5 style="color : black; font-family: monospace; font-size: small;"> New User <button type="button" class="btn btn-dark"><a href="patient-reg.html" target="_blank">Create account</a></button></h5>
+     
+      </div> 
+    </div>
+    </div>
+
+
+    <div class="log col-lg-3">
+    <div class="card">
+        <div class="card-header">
+          <h3>Receptionist</h3>
+        </div>
+              <div class="card-body">
+                <img src="receptionist.jpg" alt="..." class="img-thumbnail">
+                <h5 style="color : black; font-family: monospace; font-size: small;"> already have account? <button type="button" class="btn btn-outline-primary"><a href="receptionist-login.html" target="_blank">Login</a></button></h5>
+                <h5 style="color : black; font-family: monospace; font-size: small;"> New User <button type="button" class="btn btn-dark"><a href="receptionist-reg.html" target="_blank">Create account</a></button></h5>  
+              </div> 
+       </div>
+    </div>
+
+
+
+  </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="big-heading">For Appointments</h3>
+    <i class="bi bi-telephone"></i>
+    <p style="color : black; font-weight: bold;">044-23096133</p>
+    <p style="color : black; font-weight: bold;">044-23096555</p>
+    <p style="color : black; font-weight: bold;">044-23096888</p>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="fb fab fa-facebook-square"></i>
+    <i class="insta fab fa-instagram-square"></i>
+    <i class="msg fas fa-envelope-square"></i>
+    <p>© Copyright 2022 Mehta</p>
+
+  </footer>
+
+
+</body>
+
+</html>
